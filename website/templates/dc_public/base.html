@@ -1,0 +1,33 @@
+{% extends 'awesome_frame.html' %} {% load i18n static compress %} {% get_current_language as lang %}
+
+{% block navbar_right %}
+{# 导航栏右侧按钮代码示例，按需修改或删除 #}
+<ul class="list-inline pull-right">
+    <li><a href="#">Normal</a></li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Dropdown <i class="fa"></i></a>
+        <ul class="dropdown-menu dropdown-menu-right">
+            <li><a href="">Item 1</a></li>
+            <li><a href="">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+        </ul>
+    </li>
+</ul>
+{% endblock navbar_right %}
+
+{% block navbar_left %}
+{# 导航栏左侧按钮代码示例，按需修改 #}
+<ul class="list-inline">
+    <li class="active"><a href="#">Active</a></li>
+    <li><a href="#">Normal</a></li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" aria-expanded="false">Dropdown <i class="fa"></i></a>
+        <ul class="dropdown-menu">
+            <li><a href="">Item 1</a></li>
+            <li><a href="">Item 2</a></li>
+            <li><a href="">Item 3</a></li>
+        </ul>
+    </li>
+</ul>
+{% endblock navbar_left %}
+
