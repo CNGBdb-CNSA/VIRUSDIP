@@ -1,7 +1,7 @@
 # VIRUSDIP
 
 
-| First Header  | Second Header |
+| Folder | Description |
 | ------------- | ------------- |
 | base_app  | 通用app样例文件夹  |
 | gisaid  | gisaid 页面下的URL路由文件、表单信息、功能函数以及中间件信息  |
