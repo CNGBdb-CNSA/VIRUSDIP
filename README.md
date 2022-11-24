@@ -13,4 +13,4 @@ VirusDIP is a one-stop service platform for archiving new virus data, integratin
 | static | static resource components such as images, attachments |
 | templates | templates of Django, such as html |
 | website | other documents, such as language, wsgi files |
-| manage.py | Django 用到的管理入口文件 |
+| manage.py | project managerment script of Django |
